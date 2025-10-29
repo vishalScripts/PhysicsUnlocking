@@ -1,0 +1,77 @@
+@import url('./home.css');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #CDEFFF;
+    --color-base: #A6ECA8;
+    --color-primary: #00B5FF;
+    --color-secondary: #FF5BC4;
+    --color-highlight: #CBA0FF;
+    --color-accent: #A8E6CF;
+    --color-text: #212121;
+    --color-text-secondary: #5E5E5E;
+    --color-complimentry: #FFD93B;
+    --font-heading: "Fredoka", sans-serif;
+    --font-body: "Poppins", sans-serif;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem; /* = 16px */
+    font-family: var(--font-body);
+    color: var(--color-text);
+}
+
+h1 {
+    font-size: 3.2rem; /* = 32px */
+}
+
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.25s ease;
+    max-height: 3.5rem;
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color: #55cbfa;
+    
+}
+.btn-secondary{
+    background-color: var(--color-secondary);
+}
+
+.btn-secondary:hover {
+    background-color: #fa8fd3;
+    
+}
+
